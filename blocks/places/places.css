@@ -1,0 +1,19 @@
+.places {
+    display: grid;
+    gap: 64px;
+    box-sizing: border-box;
+}
+  
+  @media screen and (min-width: 768px) {
+    .places {
+      padding: 0 24px;
+      gap: 72px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .places {
+      padding: 0 48px;
+      gap: 80px;
+    }
+  }

@@ -1,0 +1,11 @@
+.header__lang-links {
+  padding-top: 18px;
+  padding-bottom: 6px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 18px;
+  list-style-type: none;
+}

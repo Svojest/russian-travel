@@ -1,0 +1,16 @@
+.header__logo {
+  width: 100%;
+  height: auto;
+  max-width: 142px;
+  transition: 0.5s;
+}
+
+.header__logo:hover {
+  opacity: .7;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    max-width: 176px;
+  }
+}
